@@ -1,0 +1,36 @@
+.container{
+    width:300px;
+    position:absolute;
+    left:38%;
+    border:1px solid black;
+    overflow:hidden;
+}
+#output{
+    background-color: rgb(104, 98, 98);
+    color:white;
+    font-size: 50px;
+    font-weight: 900;
+    height:100px;
+    margin:0;
+   
+}
+.row1,.row2,.row3,.row4{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+}
+.row5{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap:10px;
+}
+.buttons button{
+    height:50px;
+    margin:10px;
+}
+.operator{
+    background-color: orange;
+    color:white;
+    font-weight: bolder;
+    border:none;
+}
